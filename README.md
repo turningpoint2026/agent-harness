@@ -1,11 +1,9 @@
 # Agent harness for Claude Code and Codex
 
-Rules and checks that govern two coding agents, Claude Code and Codex, in daily research and
+Rules and checks that govern two coding agents, Claude Code and Codex, in my academic research and
 operations work. Each check exists because an agent failed in a logged, specific way; the code
 comments name the failure, and most checks carry a replay over saved transcripts that measured how
 often they would fire before they shipped.
-
-Author: Yilang Feng. Built with Claude Code and Codex sessions working under the author's rulings.
 
 This repository is a cleaned subset of a private harness (32 hook scripts behind 4 wired commands,
 50 Python files and 17,632 lines in the private hook folder, a private suite of 376 passing checks at
