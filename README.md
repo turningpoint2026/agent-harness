@@ -9,6 +9,10 @@ This repository is a cleaned subset of a private harness (32 hook scripts behind
 50 Python files and 17,632 lines in the private hook folder, a private suite of 376 passing checks at
 the 2026-11-07 change). It contains 9 hook components and 3 skills, with their tests.
 
+## Why I built this
+
+These are some of the harnesses I built for my research work in quantitative social science and business, and I would like to share them with the academic community.  
+
 ## How it works
 
 Claude Code (and Codex, through its hooks.json) runs a command at four events: when the user
@@ -142,6 +146,6 @@ on Windows; the tests run there and use only the Python standard library plus py
   the author's rulings), session logs, usage data, and hooks tied to private folders or personal
   records.
 
-## Why I built this
+
 
 <!-- Yilang writes this section -->
