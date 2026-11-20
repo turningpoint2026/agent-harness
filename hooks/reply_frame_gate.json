@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "autopilot_bounce": false,
+  "autopilot_g1_bounce": true,
+  "exempt_headless": true,
+  "version": 3,
+  "_note": "v3 (2026-10-30): content checks only. G1 hand-back bounce (a reply that hands the user an action with no orange line; the only bounce), G2 long-reply note, G3 boilerplate note, G4 machine-turn length note. enabled=false turns the gate off. autopilot_g1_bounce=true: G1 fires in autopilot too. autopilot_bounce=false: the G2 to G4 notes stay shadow-logged in autopilot. exempt_headless=true: claude -p runs (transcript entrypoint sdk-cli) are not checked. Log: ~/.claude/state/reply_frame_gate_log.csv."
+}

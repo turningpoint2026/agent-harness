@@ -1,0 +1,24 @@
+You are worker {{worker_label}} in a parallel file-based orchestration. Read this file IN FULL, then execute it exactly as written:
+{{worker_instructions_absolute_path}}
+
+{# ────────────────────────────────────────────────────────────────────
+   WHY THIS PROMPT IS A ONE-LINE POINTER, NOT A SCOPE BRIEFING
+
+   The worker instruction MD is self-contained by hard rule: §0 tells the
+   worker to read the whole doc, §3 lists its inputs, §7 lists what is out
+   of scope (the other workers' jobs). Duplicating any of that into the
+   launch prompt creates two sources of truth that drift apart. So the
+   prompt carries ONLY the two things a fresh window cannot infer:
+     1. which file to read (absolute path)
+     2. read it in full before acting
+
+   Two things the prompt does NOT carry, by design:
+     - The model. A pasted prompt cannot change the session model; the
+       approved roster and instruction header name the actual agent/model.
+       Print that roster reminder ONCE above all prompt blocks.
+     - Scope guards. They live in the doc's §7. If you feel the urge to add
+       them here, the doc isn't self-contained — fix the doc instead.
+
+   {{worker_label}} = the worker's short id, e.g. "W1" or "WZ (mechanical
+   audit)". Delete this comment block before printing the prompt.
+   ──────────────────────────────────────────────────────────────────── #}

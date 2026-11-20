@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# machine-specific: written by hooks/deploy.py with absolute paths
+hooks/hook_registry.json

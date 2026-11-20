@@ -1,0 +1,9 @@
+{
+  "R1": false,
+  "R2": false,
+  "R3": true,
+  "hard_mode": false,
+  "shadow_log": true,
+  "_note": "Stage 1 (2026-09-06): R1 and R2 missed their replay pass marks after one narrowing (R1 about 15 percent false bounces, recall 7 of 25; R2 14.5 percent, recall 9 of 25), so both ship off: shadow_log=true writes a would-bounce row per firing to ~/.claude/state/turn_end_gate_log.csv. Flip R1/R2 to true only after a replay under the pass mark. hard_mode=true makes a retry that carries neither a read-back nor a label bounce again on the next turn.",
+  "_note_R3": "R3 on since 2026-09-24: replay over 2,506 saved turns, 8 would-bounce (0.32 percent), 7 real, including both known false-send incidents. Tripwire: one bounce, the retry passes."
+}
