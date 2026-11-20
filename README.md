@@ -1,4 +1,4 @@
-# Agent harness for Claude Code and Codex
+# Agent harness for academic research in quantitative social sciences and business.
 
 Rules and checks that govern two coding agents, Claude Code and Codex, in my academic research and
 operations work. Each check exists because an agent failed in a logged, specific way; the code
