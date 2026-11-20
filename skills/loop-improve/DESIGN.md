@@ -53,7 +53,7 @@ type (what "better" means, stop criteria, banned patterns).
 
 ## Verification design
 
-- Verifiers asked to judge plausibility approved nearly every claim in the first pilot. The working
+- A verifier asked only whether a claim is plausible tends to agree with it. The working
   design: (a) blind extraction before the verifier sees the claim, (b) an adversarial reader whose
   default verdict is DISCREPANT, (c) a top-tier arbitrator on disagreement.
 - With that frame, a later run using a cheap blind-extraction lane surfaced 11 disputes that

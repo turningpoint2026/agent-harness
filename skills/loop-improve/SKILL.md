@@ -47,7 +47,7 @@ description: "Iterative multi-agent improvement loop for a deliverable worth mor
 - **Arms**: A sees everything; B blind (artifact only). Reserve finding slots per category so numeric findings don't crowd out theory/framing.
 - **Verification** (claim-level):
   - Split by claim class FIRST: source-fact claims → agent verifiers; **package-compliance claims → deterministic mechanical sweep on the written file, never source-reading agents**.
-  - Numbers/citations: TWO readers (blind extraction + adversarial default-DISCREPANT). Text/structural: ONE adversarial reader. Never plausibility-judging refuters (they approve nearly everything: sycophancy).
+  - Numbers/citations: TWO readers (blind extraction + adversarial default-DISCREPANT). Text/structural: ONE adversarial reader. Never plausibility-judging refuters (they tend to agree: sycophancy).
   - Blind extractors may launch at Prep time (claim-agnostic); only adversarial readers need ship_claims.
   - Disagreement → Fable-max arbitrator. Max 2 refuter pairs per finding across all rounds.
   - **OPT-IN debate stage** (validated; spec in `experiments/DEBATE_ROUND.md`): after judge output is on disk, 5 lens-diverse Opus debaters × 2 turns + moderator; own gate line; candidates enter only through normal verification, provenance-tagged 'debate'. Strongest when round scope is narrow — debaters roam the whole document.

@@ -21,7 +21,7 @@ the stage is listed as its own line in the gate estimate.
    - Turn 2: each debater (parallel) reads the FULL turn-1 channel and must either (i) post a
      NEW finding that builds on or contradicts another debater's post, with evidence, or
      (ii) explicitly PASS. Bare agreement is banned — "+1" posts are the known sycophancy
-     channel (an earlier verifier design approved nearly every claim it saw).
+     channel (a verifier that only judges plausibility tends to agree).
    - Moderator (Opus): dedups the channel against the ledger; outputs candidate NEW findings.
 4. Every candidate goes through the SAME verification tier as normal claims (dual reader for
    numbers/citations, single adversarial for text). No shortcut into the deliverable.
